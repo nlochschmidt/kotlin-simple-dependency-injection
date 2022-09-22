@@ -23,3 +23,7 @@ class Service(
 fun app(service: Service = Service()) {
     service.injectableMethod("Hello")
 }
+
+fun main() {
+    app()
+}
